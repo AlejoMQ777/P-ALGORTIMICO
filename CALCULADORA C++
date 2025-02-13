@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main ()  { 
+    //definir dos variables
+    int a = 10 , b =3;
+    
+    
+    //operaciones
+    int suma = a + b;
+    int resta = a - b; 
+    int multiplicacion = a * b;
+    float division = (float division) a / b; // convertir a float paera evitar division entera
+    int modulo = a % b;
+    
+    
+    //mostrar resultados
+    cout<< "suma : " <<suma <<end1;
+    cout<< "resta :" <<resta <<end1;
+    cout<< "multiplicacion" <<multiplicacion <<end1;
+    cout<< "division" << division <<end1;
+    cout<< "modulo"  << modulo <<end1; 
