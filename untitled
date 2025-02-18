@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Inicializamos la variable con el valor 10
+    int variable = 10;
+
+    // Aumentamos en 5
+    variable += 5;
+
+    // Reducimos en 3
+    variable -= 3;
+
+    // Multiplicamos por 2
+    variable *= 2;
+
+    // Dividimos entre 4
+    variable /= 4;
+
+    // Mostramos el resultado final
+    cout << "El valor final de la variable es: " << variable << endl;
+
+    return 0;
+}
